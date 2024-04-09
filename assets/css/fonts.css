@@ -48,7 +48,7 @@
     font-family: 'Hello Lovely', cursive;
     font-size: 2em!important;
     color: rgb(255, 94, 0)!important;
-    margin-top: 5%!important;
+    margin-top: 1%!important;
   }
 
   .vip-img {
@@ -132,8 +132,15 @@
   }
   .row-columns .col-4 {
     flex: 1;
-    border: 1em solid rgb(255, 94, 0);; /* Borde de 1em de ancho, color naranja fuerte */
+    border: 0.4em solid rgb(255, 94, 0); /* Borde de 1em de ancho, color naranja fuerte */
     padding: 20px; /* Añadido para espacio interno */
+  }
+  .quienes{
+    border: 0.4em solid rgb(255, 94, 0);
+    padding-top: 0%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 2rem;
   }
   /* Estilos para el mapa de Google Maps */
   .map-container {
