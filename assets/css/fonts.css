@@ -63,8 +63,9 @@
     font-family: 'Hello Lovely', cursive ;
     font-size: 6em!important;
     color: red!important;
-    background-color: wheat;
+   
     border-radius: 1rem;
+    padding: 2%;
   }
   
   h2 {
@@ -75,6 +76,7 @@
    text-align: center;
     border-radius: 1rem;
     margin-top: 5%!important;
+    padding: 2%;
   }
 
   h3 {
@@ -82,7 +84,8 @@
     font-family: 'Hello Lovely', cursive;
     font-size: 2em!important;
     color: rgb(255, 94, 0)!important;
-    margin-top: 1%!important;
+    
+    padding: 2%;
   }
 
   .vip-img {
@@ -114,6 +117,12 @@
   body {
     margin: 0;
     padding: 0;
+    background-image: url("../img/01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 100% auto;
+    
    
   }
   .container {
@@ -178,7 +187,7 @@
     padding: 20px; /* Añadido para espacio interno */
   }
   .quienes{
-    border: 0.2em solid rgb(255, 94, 0);
+    border: 0.01em solid rgb(255, 94, 0);
     padding-top: 0%;
     margin-top: 5px;
     margin-bottom: 5px;
