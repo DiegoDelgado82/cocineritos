@@ -72,6 +72,7 @@
     color: rgb(255, 94, 0)!important;
     border-radius: 1rem;
     margin-top: 5%!important;
+    text-align: center;
   }
   
   h3 {
@@ -242,4 +243,18 @@
   .espacio
   {
     height: 20rem;
+  }
+
+  .texto
+  {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+  }
+
+  .micro
+  {
+    padding-top: 7%;
+    margin-bottom: 5%;
+    
   }
