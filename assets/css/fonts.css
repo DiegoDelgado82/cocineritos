@@ -1,3 +1,26 @@
+@media screen and (min-width: 768px) {
+    .row-columns {
+      display: flex;
+    }
+    .row-columns .col-4 {
+      flex: 1;
+      border: 1em solid orange;
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .row-columns {
+      display: block;
+    }
+    .row-columns .col-4 {
+      width: 100%;
+      border: none;
+      padding: 20px;
+    }
+  }
+    
+
+
 @font-face {
     font-family: 'Hello Lovely';
     src: url('../fonts/Hello-Lovely.woff') format('woff');
@@ -141,7 +164,7 @@
     opacity: 0.7; /* Ajusta la opacidad según necesites */
   }
   p {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS', cursive!important;
     text-align: center;
 }
 .mapa{
