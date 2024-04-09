@@ -168,12 +168,14 @@
   
   .quienes {
     border: 0.01em solid rgb(255, 94, 0);
-    padding-top: 0%;
+    
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 2rem;
-    margin-left: 40px;
-    margin-right: 40px;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-left: 5%;
+   padding-right: 5%;
   }
   
   /* Estilos para el mapa de Google Maps */
