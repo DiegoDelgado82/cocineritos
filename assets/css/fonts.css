@@ -220,3 +220,26 @@
     border:0;
     
 }
+
+.onda
+{
+    background-image: url("../img/ondas/01.jpeg");
+    background-position: 0%;
+    background-size: cover;
+    
+}
+
+.onda2
+{
+    background-image: url("../img/ondas/02.jpeg");
+    background-position: 0%;
+    background-size: cover;
+    
+}
+.onda3
+{
+    background-image: url("../img/ondas/03.jpeg");
+    background-position: 0%;
+    background-size: cover;
+    
+}
