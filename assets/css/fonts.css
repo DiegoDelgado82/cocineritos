@@ -18,8 +18,38 @@
       padding: 20px;
     }
   }
-    
 
+  @media screen and (max-width: 767px) {
+    footer {
+      width: 100%;
+    }
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0; /* Ajusta el padding superior e inferior */
+    text-align: center;
+  }
+  
+  footer .container {
+    padding: 0; /* Elimina el padding interno */
+  }
+  
+  footer .row {
+    margin: 0; /* Elimina el margen interno */
+  }
+  
 
 @font-face {
     font-family: 'Hello Lovely';
@@ -136,7 +166,7 @@
     color: #fff;
     padding: 0px;
     text-align: center;
-    width: 70rem;
+    width: auto!important;
   }
   /* Estilos para el título */
  
