@@ -68,7 +68,7 @@
   
   h2 {
     font-family: 'Hello Lovely', cursive;
-    font-size: 3em!important;
+    font-size: 2em!important;
     color: rgb(255, 94, 0)!important;
     border-radius: 1rem;
     margin-top: 5%!important;
@@ -250,6 +250,7 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
+    font-size: 1.5rem !important;
   }
 
   .micro
