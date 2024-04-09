@@ -242,13 +242,13 @@
   
   .espacio
   {
-    height: 2rem;
+    height: 6rem;
   }
 
   .texto
   {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
     text-align: justify;
     
   }
