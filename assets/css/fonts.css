@@ -72,7 +72,7 @@
     font-family: 'Hello Lovely', cursive;
     font-size: 4em!important;
     color: rgb(255, 94, 0)!important;
-    background-color: wheat;
+   
     border-radius: 1rem;
     margin-top: 5%!important;
   }
@@ -114,8 +114,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: orange!important;
-    background-attachment: fixed;
+   
   }
   .container {
     max-width: 1200px;
@@ -243,3 +242,13 @@
     background-size: cover;
     
 }
+
+.onda4
+{
+    background-image: url("../img/ondas/04.png");
+    background-position: 0%;
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+}
+
