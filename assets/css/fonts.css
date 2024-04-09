@@ -71,12 +71,12 @@
   h2 {
     
     font-family: 'Hello Lovely', cursive;
-    font-size: 4em!important;
+    font-size: 3em!important;
     color: rgb(255, 94, 0)!important;
-   text-align: center;
+  
     border-radius: 1rem;
     margin-top: 5%!important;
-    padding: 2%;
+    
   }
 
   h3 {
@@ -192,6 +192,8 @@
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   /* Estilos para el mapa de Google Maps */
   .map-container {
@@ -260,4 +262,6 @@
     background-repeat: no-repeat;
     
 }
+
+
 
