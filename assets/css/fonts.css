@@ -18,7 +18,7 @@
       padding: 20px;
     }
   }
-
+  
   @media screen and (max-width: 767px) {
     footer {
       width: 100%;
@@ -50,8 +50,7 @@
     margin: 0; /* Elimina el margen interno */
   }
   
-
-@font-face {
+  @font-face {
     font-family: 'Hello Lovely';
     src: url('../fonts/Hello-Lovely.woff') format('woff');
     font-weight: normal;
@@ -60,60 +59,55 @@
   
   h1 {
     text-align: center;
-    font-family: 'Hello Lovely', cursive ;
+    font-family: 'Hello Lovely', cursive;
     font-size: 6em!important;
     color: red!important;
-   
     border-radius: 1rem;
     padding: 2%;
   }
   
   h2 {
-    
     font-family: 'Hello Lovely', cursive;
     font-size: 3em!important;
     color: rgb(255, 94, 0)!important;
-  
     border-radius: 1rem;
     margin-top: 5%!important;
-    
   }
-
+  
   h3 {
-    
     font-family: 'Hello Lovely', cursive;
     font-size: 2em!important;
     color: rgb(255, 94, 0)!important;
-    
     padding: 2%;
   }
-
+  
   .vip-img {
     display: block;
     margin: 0 auto;
-    width: 100%; /* Ocupar todo el ancho de la pantalla */
+    width: 100vw; /* Ancho del viewport */
     height: auto; /* Para mantener la proporción */
     max-height: 50vh; /* Reducir el tamaño en un 50% */
+    margin: 0; /* Elimina cualquier margen */
   }
+  
   .vip-logo {
     margin: 0 auto;
     width: 10%; /* Ocupar todo el ancho de la pantalla */
     height: auto; /* Para mantener la proporción */
     max-height: 50vh; /* Reducir el tamaño en un 50% */
   }
-
+  
   .explosion {
-    padding: 20px;
     text-align: center;
-    background-color: white; 
+    background-color: white;
     color: rgb(255, 94, 0);
   }
- 
-   /* Estilos generales */
-   * {
+  
+  /* Estilos generales */
+  * {
     box-sizing: border-box;
   }
-
+  
   body {
     margin: 0;
     padding: 0;
@@ -122,49 +116,33 @@
     background-attachment: fixed;
     background-position: center top;
     background-size: 100% auto;
-    
-   
   }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
+  
   /* Estilos para el menú hamburguesa */
   .menu-btn {
     display: none;
   }
+  
   .menu-btn:checked ~ .menu {
     display: block;
   }
+  
   .menu {
     display: none;
   }
+  
   /* Estilos para el menú de navegación */
   .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+  
   .menu ul li {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
   }
-  /* Estilos para las columnas */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  /* Estilos específicos para la explosión */
   
   /* Estilos para el footer */
   footer {
@@ -173,40 +151,42 @@
     padding: 0px;
     text-align: center;
     width: auto!important;
-    
   }
+  
   /* Estilos para el título */
- 
+  
   /* Estilos para las columnas de la sección Quiénes somos, Visión y Misión */
   .row-columns {
     display: flex;
   }
+  
   .row-columns .col-4 {
     flex: 1;
     border: 0.4em solid rgb(255, 94, 0); /* Borde de 1em de ancho, color naranja fuerte */
     padding: 20px; /* Añadido para espacio interno */
   }
-  .quienes{
+  
+  .quienes {
     border: 0.01em solid rgb(255, 94, 0);
     padding-top: 0%;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 40px;
+    margin-right: 40px;
   }
+  
   /* Estilos para el mapa de Google Maps */
   .map-container {
     width: 100%;
     height: 450px; /* Ajusta la altura según sea necesario */
     margin-top: 20px; /* Espacio superior */
   }
-  .pie{
-    
+  
+  .pie {
     margin-top: 0%!important;
-    
   }
-
+  
   .header-bg {
     position: relative;
   }
@@ -220,48 +200,40 @@
     height: 100%;
     opacity: 0.7; /* Ajusta la opacidad según necesites */
   }
+  
   p {
     font-family: 'Comic Sans MS'!important;
     text-align: center;
-}
-.mapa{
-    width:100%;
-    height:300px;
-    border:0;
-    
-}
-
-.onda
-{
+  }
+  
+  .mapa {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+  
+  .onda {
     background-image: url("../img/ondas/01.jpeg");
     background-position: 0%;
     background-size: cover;
-    
-}
-
-.onda2
-{
+  }
+  
+  .onda2 {
     background-image: url("../img/ondas/02.jpeg");
     background-position: 0%;
     background-size: cover;
-    
-}
-.onda3
-{
+  }
+  
+  .onda3 {
     background-image: url("../img/ondas/03.jpeg");
     background-position: 0%;
     background-size: cover;
-    
-}
-
-.onda4
-{
+  }
+  
+  .onda4 {
     background-image: url("../img/ondas/04.png");
     background-position: 0%;
-    background-size:auto;
+    background-size: auto;
     background-repeat: no-repeat;
-    
-}
-
-
-
+  }
+  
