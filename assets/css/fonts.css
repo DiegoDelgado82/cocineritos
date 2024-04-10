@@ -284,3 +284,17 @@
     padding: 0; /* Elimina cualquier relleno */
   }
  
+  .corazones-izquierda {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+  }
+  
+  .corazones-derecha {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+  }
+  
