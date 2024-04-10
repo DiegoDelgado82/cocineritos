@@ -287,14 +287,20 @@
   .corazones-izquierda {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -70px;
     width: 25%;
   }
   
   .corazones-derecha {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -70px;
     width: 25%;
   }
   
+  .ondas{
+    margin:50;
+    right: 0;
+    top: 0;
+   
+  }
