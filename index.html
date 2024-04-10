@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+   
 
     <link rel="stylesheet" type="text/css" href="../assets/css/fonts.css" />
 
@@ -114,35 +114,23 @@
       </section>
 
       <section class="row bg-white">
-        <!-- Inserta aquí el componente Swiper -->
-        <div class="swiper-container w-75 mx-auto text-center">
-          <swiper-container
-            class="mySwiper"
-            pagination="true"
-            effect="coverflow"
-            grab-cursor="true"
-            centered-slides="true"
-            slides-per-view="auto"
-            coverflow-effect-rotate="50"
-            coverflow-effect-stretch="0"
-            coverflow-effect-depth="100"
-            coverflow-effect-modifier="1"
-            coverflow-effect-slide-shadows="true"
-          >
-            <swiper-slide>
-              <img src="../assets/img/swipper/ele1.jpg" title="imagen" />
-            </swiper-slide>
-            <swiper-slide>
-              <img src="../assets/img/swipper/ele2.jpg" title="imagen" />
-            </swiper-slide>
-            <swiper-slide>
-              <img src="../assets/img/swipper/ele3.jpg" title="imagen" />
-            </swiper-slide>
-            <swiper-slide>
-              <img src="../assets/img/swipper/ele4.jpg" title="imagen" />
-            </swiper-slide>
-          </swiper-container>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../assets/img/swipper/ele1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/swipper/ele2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/swipper/ele3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/img/swipper/ele4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
         </div>
+        
       </section>
 
       <footer class="row mt-2">
@@ -183,6 +171,15 @@
       rel="stylesheet"
     />
 
-    <!-- Inicializa Swiper -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Inicializa el carousel de Bootstrap y establece un intervalo de 3 segundos para el cambio automático
+  var myCarousel = document.getElementById('carouselExampleSlidesOnly');
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 3000
+  });
+</script>
+
   </body>
 </html>
