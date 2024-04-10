@@ -270,3 +270,17 @@
       margin-top: 10px; /* Ajusta el margen superior según sea necesario */
     }
   }
+
+  .section-background {
+    position: relative;
+    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+  }
+  
+  .section-background img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier relleno */
+  }
+ 
